@@ -321,10 +321,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5353190002206010038}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b923f5b2c4217d4c8476dc4993897e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Scene0
+  nextSceneName: Level02
   currentLevel: {fileID: 0}
