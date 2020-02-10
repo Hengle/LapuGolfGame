@@ -76,7 +76,8 @@ public class PlayerMove : MonoBehaviour
                     dirline.SetPosition(0, rb.transform.position);
                     dirline.SetPosition(1, hit.point);
                     pos = hit.point;
-                    force = Mathf.Min(Vector3.Distance(hit.point, rb.transform.position), maxthrust) * thrust;
+                    pos.y = rb.transform.position.y; //avoid jumpping
+                    force = Mathf.Min(Vector3.Distance(pos, rb.transform.position), maxthrust) * thrust;
                 }
             }
         }
