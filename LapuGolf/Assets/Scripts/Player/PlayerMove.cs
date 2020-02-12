@@ -64,7 +64,6 @@ public class PlayerMove : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-
             RaycastHit hit;
             var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -94,12 +93,11 @@ public class PlayerMove : MonoBehaviour
 
     void isOutofArea()
     {
-        if(transform.position.y < -20)
+        if(transform.position.y < -15)
         {
             Destroy(gameObject);
             SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-          
         }
     }
 

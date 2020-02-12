@@ -42,7 +42,10 @@ public class Win : MonoBehaviour
             {
                 originBGM.Stop();
                 winBGM.Play();
+                Debug.Log(GameObject.FindGameObjectWithTag("Player").name);
+                GameObject.FindGameObjectWithTag("Player").GetComponent<JumpLevel>().enabled = true;
                 ClearText();
+                
             }
             else
             {

@@ -34,9 +34,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //ClickAddForce();
-
         DirectionAddForce();
-
     }
 
     void ClickAddForce()
@@ -71,8 +69,6 @@ public class PlayerMovement : MonoBehaviour
 
     void DirectionAddForce() {
 
- 
-
         Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pos.z = transform.position.z;
     
@@ -88,7 +84,6 @@ public class PlayerMovement : MonoBehaviour
             dirline.positionCount = 2;
             dirline.SetPosition(0, rb.transform.position);
             dirline.SetPosition(1, pos);
-
         }
 
         if (Input.GetMouseButtonUp(0))

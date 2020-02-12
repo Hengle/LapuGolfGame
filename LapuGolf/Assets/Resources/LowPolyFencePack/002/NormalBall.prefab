@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 121538875}
   - component: {fileID: 2426253424850370821}
   - component: {fileID: 1685816110}
-  - component: {fileID: 1685816111}
+  - component: {fileID: 707931742}
   m_Layer: 0
   m_Name: NormalBall
   m_TagString: Player
@@ -131,7 +131,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dfd1391e0617ace48af560a46f2d79f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -221,8 +221,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.048780486
-        value: 0.14563191
+        time: 0.054334685
+        value: 0.58848774
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -234,8 +234,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -281,8 +281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 536176896f7a50d4091dfe4d15fb6d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 3
-  maxthrust: 5
+  thrust: 2
+  maxthrust: 3
   speed: 5
   jumpspeed: 0.1
 --- !u!114 &2426253424850370821
@@ -314,7 +314,7 @@ MonoBehaviour:
   cd: {fileID: 0}
   skillcd: 5
   noticeUI: {fileID: 0}
---- !u!114 &1685816111
+--- !u!114 &707931742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,11 +323,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5353190002206010038}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7b6c8a0056a1354ca1601c25e84ac85, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b923f5b2c4217d4c8476dc4993897e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBeteenStep: 1
-  stepCount: 60
-  addedV: {x: 3, y: 0, z: 0}
-  addedF: {x: 0, y: 333, z: 0}
-  keyToActivate: 32
+  nextSceneName: Level02
+  currentLevel: {fileID: 0}
