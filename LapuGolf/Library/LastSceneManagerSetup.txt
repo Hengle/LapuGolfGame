@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Resources/Scenes/Level06.unity
+- path: Assets/patreon/TinyEnvironment/TinyEnvironmentConcepts.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
