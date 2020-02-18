@@ -18,12 +18,10 @@ public class PlayerMove : MonoBehaviour
     private Vector3 pos;
     private float force;
 
-    private Scene currentScene;
-
     public float strength = 0;
     public Image powerBar;
-    public float delta = 50;
-    public float maxPower = 20000;
+    public float delta = 100;
+    public float maxPower = 30000;
 
     public float totalMass;
 
@@ -38,13 +36,21 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         KeyboardRPG();//for testing
-        PointShoot02();
-        //PointShoot();
+        if (isIdle()) {
+            PointShoot02();
+        }
+            //PointShoot();
         isOutofArea();
         //PressJumpForward();
         //PressJumpUp();
     }
 
+    bool isIdle()
+    {
+        if (gameObject.GetComponent<Rigidbody>().velocity.x<1&& gameObject.GetComponent<Rigidbody>().velocity.y < 1 && gameObject.GetComponent<Rigidbody>().velocity.z < 1 )
+            return true;
+        else return false;
+    }
 
     void KeyboardRPG()
     {
@@ -129,14 +135,18 @@ public class PlayerMove : MonoBehaviour
                     pos = hit.point;
                     pos.y = rb.transform.position.y; //avoid jumpping
                     force = Mathf.Min(Vector3.Distance(pos, rb.transform.position), maxthrust) * thrust;
+
+                    powerBar.GetComponent<RectTransform>().sizeDelta = new Vector2(20, strength / maxPower * 500);
                 }
             }
         }
 
         if (Input.GetMouseButtonUp(0))
-        {         
+        {
+            totalMass = GetTotalMass(gameObject);
             dirline.positionCount = 0;
-            rb.AddForce(direction.normalized * strength * 0.3f);
+            rb.AddForce(direction.normalized * strength * totalMass * 0.3f);
+            strength = 0;
         }
     }
 
