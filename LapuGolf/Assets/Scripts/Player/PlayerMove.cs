@@ -151,6 +151,24 @@ public class PlayerMove : MonoBehaviour
     }
 
 
+    float GetTotalMass(GameObject ob)
+    {
+        float ma = 0;
+        ma += ob.GetComponent<Rigidbody>().mass;
+
+        Rigidbody[] bodies;
+        bodies = GetComponentsInChildren<Rigidbody>();
+
+        foreach (Rigidbody x in bodies)
+        {
+            ma += x.mass;
+        }
+
+        return ma;
+    }
+
+
+
 
     void PressJumpForward()
     {
@@ -196,22 +214,6 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-
-    float GetTotalMass(GameObject ob)
-    {
-        float ma = 0;
-        ma += ob.GetComponent<Rigidbody>().mass;
-
-        Rigidbody[] bodies;
-        bodies = GetComponentsInChildren<Rigidbody>();
-
-        foreach (Rigidbody x in bodies)
-        {
-            ma += x.mass;
-        }
-
-        return ma;
-    }
 
 
     void isOutofArea()
