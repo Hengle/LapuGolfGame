@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 7629050dfc0b63d42ac253c06bada2be
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 5664308050491794246
+    second: track01_semiCylinder|Action
+  - first:
+      74: -7030067577472875381
+    second: track01_semiCylinder|Action.001
+  - first:
+      74: 2730639638555521088
+    second: track01_semiCylinder|Cube.001Action
+  - first:
+      74: -7286698267356404275
+    second: track01_semiCylinder|Cube.001Action.001
+  - first:
+      74: 2177863235810299529
+    second: track01_semiCylinder|Cube.002Action
+  - first:
+      74: -7995806308678934333
+    second: track01_semiCylinder|Cube.002Action.001
+  - first:
+      74: 4195893908170708185
+    second: track01_semiCylinder|Cube.002Action.002
+  - first:
+      74: 8758972323103196730
+    second: track01_semiCylinder|Cube.002Action.003
+  - first:
+      74: -4775209751188468985
+    second: track01_semiCylinder|Cube.007Action
+  - first:
+      74: 2701885155173528813
+    second: track01_semiCylinder|Cube.007Action.001
+  - first:
+      74: -1905033588261691480
+    second: track01_semiCylinder|Cylinder.001Action
+  - first:
+      74: 2118638516868261580
+    second: track01_semiCylinder|Cylinder.002Action
+  - first:
+      74: 2884382057963600686
+    second: track01_semiCylinder|Cylinder.002Action.001
+  - first:
+      74: -7631402312857954763
+    second: track01_semiCylinder|Cylinder.003Action
+  - first:
+      74: -2133669452624537166
+    second: track01_semiCylinder|Cylinder.003Action.001
+  - first:
+      74: -8338830755727059422
+    second: track01_semiCylinder|Cylinder.003Action.002
+  - first:
+      74: -1992264549968095640
+    second: track01_semiCylinder|Cylinder.003Action.003
+  - first:
+      74: -7490522317609334417
+    second: track01_semiCylinder|CylinderAction
+  - first:
+      74: -6053756335216919099
+    second: track01_semiCylinder|SphereAction
+  - first:
+      74: -1235737251708233001
+    second: track01_semiCylinder|toolCylinder.001Action
+  - first:
+      74: -3243268381454601986
+    second: track01_semiCylinder|ToSphere.001
+  - first:
+      74: -5618826561372773507
+    second: track01_semiCylinder|track01_semiCylinderAction
+  - first:
+      74: -7132467661868949190
+    second: track01_semiCylinder|track02_semiSphereAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

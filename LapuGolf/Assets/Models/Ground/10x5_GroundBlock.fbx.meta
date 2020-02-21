@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 9d91dba120d2a1347a881f14ea7b2e2f
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 5195389559801028089
+    second: 10x10_GroundBlock.001|Action
+  - first:
+      74: 158629150494931296
+    second: 10x10_GroundBlock.001|Action.001
+  - first:
+      74: -897156773533132556
+    second: 10x10_GroundBlock.001|BezierCircleAction
+  - first:
+      74: 3074453684567625588
+    second: 10x10_GroundBlock.001|BezierCircleAction.001
+  - first:
+      74: 7807414720185746828
+    second: 10x10_GroundBlock.001|BezierCircleAction.002
+  - first:
+      74: 2514683839275849221
+    second: 10x10_GroundBlock.001|Cube.001Action
+  - first:
+      74: -5326383497662947964
+    second: 10x10_GroundBlock.001|Cube.001Action.001
+  - first:
+      74: -4738524403659816767
+    second: 10x10_GroundBlock.001|Cube.002Action
+  - first:
+      74: 6816501150672430820
+    second: 10x10_GroundBlock.001|Cube.002Action.001
+  - first:
+      74: 4418972172668934577
+    second: 10x10_GroundBlock.001|Cube.002Action.002
+  - first:
+      74: -6200191915572025220
+    second: 10x10_GroundBlock.001|Cube.002Action.003
+  - first:
+      74: -1440757627908975572
+    second: 10x10_GroundBlock.001|Cube.007Action
+  - first:
+      74: -7108948072230301394
+    second: 10x10_GroundBlock.001|Cube.007Action.001
+  - first:
+      74: -7105208506912836502
+    second: 10x10_GroundBlock.001|Cube.007Action.002
+  - first:
+      74: 16444440175458047
+    second: 10x10_GroundBlock.001|Cube.007Action.003
+  - first:
+      74: 1356767679776595243
+    second: 10x10_GroundBlock.001|Cube.008Action
+  - first:
+      74: 416102226312840315
+    second: 10x10_GroundBlock.001|Cylinder.001Action
+  - first:
+      74: -6328772387871394372
+    second: 10x10_GroundBlock.001|Cylinder.002Action
+  - first:
+      74: -5574407274800129204
+    second: 10x10_GroundBlock.001|Cylinder.002Action.001
+  - first:
+      74: 2977960599190246553
+    second: 10x10_GroundBlock.001|Cylinder.003Action
+  - first:
+      74: -6196090486280391468
+    second: 10x10_GroundBlock.001|Cylinder.003Action.001
+  - first:
+      74: -2450828949957136200
+    second: 10x10_GroundBlock.001|Cylinder.003Action.002
+  - first:
+      74: -927878024627851210
+    second: 10x10_GroundBlock.001|Cylinder.003Action.003
+  - first:
+      74: -920832413376522606
+    second: 10x10_GroundBlock.001|Cylinder.003Action.004
+  - first:
+      74: 7704739996385592501
+    second: 10x10_GroundBlock.001|Cylinder.004Action
+  - first:
+      74: -296504361254881623
+    second: 10x10_GroundBlock.001|CylinderAction
+  - first:
+      74: -7707981570259782161
+    second: 10x10_GroundBlock.001|NurbsPathAction
+  - first:
+      74: -831232296927426195
+    second: 10x10_GroundBlock.001|NurbsPathAction.001
+  - first:
+      74: 521540447722687519
+    second: 10x10_GroundBlock.001|PlaneAction
+  - first:
+      74: 8533433919253242775
+    second: 10x10_GroundBlock.001|SphereAction
+  - first:
+      74: 8815048861026485627
+    second: 10x10_GroundBlock.001|toolCylinder.001Action
+  - first:
+      74: 5429976419658731555
+    second: 10x10_GroundBlock.001|ToSphere.001
+  - first:
+      74: 1028932391249297562
+    second: 10x10_GroundBlock.001|track01_semiCylinderAction
+  - first:
+      74: -5289828996815699195
+    second: 10x10_GroundBlock.001|track02_semiSphereAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
