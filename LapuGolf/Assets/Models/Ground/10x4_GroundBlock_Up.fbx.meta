@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: ae794b54fc8e1b44da99dae75f3128ed
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 8468203219293926338
+    second: 10x4_GroundBlock_up|Action
+  - first:
+      74: 7230008754801093544
+    second: 10x4_GroundBlock_up|Action.001
+  - first:
+      74: -2276321515250115832
+    second: 10x4_GroundBlock_up|Cube.001Action
+  - first:
+      74: -4012448423285329286
+    second: 10x4_GroundBlock_up|Cube.001Action.001
+  - first:
+      74: -2016069373483297479
+    second: 10x4_GroundBlock_up|Cube.002Action
+  - first:
+      74: 2941724690121734854
+    second: 10x4_GroundBlock_up|Cube.002Action.001
+  - first:
+      74: 4874727891760232034
+    second: 10x4_GroundBlock_up|Cube.002Action.002
+  - first:
+      74: -6311818214543223390
+    second: 10x4_GroundBlock_up|Cube.002Action.003
+  - first:
+      74: 6578665689221107614
+    second: 10x4_GroundBlock_up|Cube.007Action
+  - first:
+      74: -1861158901931619850
+    second: 10x4_GroundBlock_up|Cube.007Action.001
+  - first:
+      74: 5800891709868759295
+    second: 10x4_GroundBlock_up|Cube.007Action.002
+  - first:
+      74: 4672680691360798040
+    second: 10x4_GroundBlock_up|Cube.008Action
+  - first:
+      74: -1554735437233875476
+    second: 10x4_GroundBlock_up|Cylinder.001Action
+  - first:
+      74: 8842122266468812517
+    second: 10x4_GroundBlock_up|Cylinder.002Action
+  - first:
+      74: -4511780821182243244
+    second: 10x4_GroundBlock_up|Cylinder.002Action.001
+  - first:
+      74: -1555708951583523944
+    second: 10x4_GroundBlock_up|Cylinder.003Action
+  - first:
+      74: -4360577532609209302
+    second: 10x4_GroundBlock_up|Cylinder.003Action.001
+  - first:
+      74: 3388501179660138087
+    second: 10x4_GroundBlock_up|Cylinder.003Action.002
+  - first:
+      74: -2990178368740914993
+    second: 10x4_GroundBlock_up|Cylinder.003Action.003
+  - first:
+      74: 3205796835147947629
+    second: 10x4_GroundBlock_up|Cylinder.004Action
+  - first:
+      74: -3578794188523825656
+    second: 10x4_GroundBlock_up|CylinderAction
+  - first:
+      74: 1900121303793302973
+    second: 10x4_GroundBlock_up|SphereAction
+  - first:
+      74: -903863466590849093
+    second: 10x4_GroundBlock_up|toolCylinder.001Action
+  - first:
+      74: 7736969954563276763
+    second: 10x4_GroundBlock_up|ToSphere.001
+  - first:
+      74: -4599321389992387794
+    second: 10x4_GroundBlock_up|track01_semiCylinderAction
+  - first:
+      74: 5809391506192740312
+    second: 10x4_GroundBlock_up|track02_semiSphereAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

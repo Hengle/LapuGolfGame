@@ -34,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 5353190002206010038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.99, y: 12.471191, z: -26.92}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -61,6 +61,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -128,6 +129,7 @@ LineRenderer:
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -285,6 +287,11 @@ MonoBehaviour:
   maxthrust: 3
   speed: 5
   jumpspeed: 0.1
+  strength: 0
+  powerBar: {fileID: 0}
+  delta: 100
+  maxPower: 30000
+  totalMass: 0
 --- !u!114 &2426253424850370821
 MonoBehaviour:
   m_ObjectHideFlags: 0
