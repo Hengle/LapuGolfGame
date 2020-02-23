@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3326058139233428753}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.39, y: 0.04, z: -3.24}
+  m_LocalPosition: {x: -11.119326, y: 0.36151886, z: 7.002502}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,3 +112,4 @@ MonoBehaviour:
   mouseonColor: {r: 1, g: 0.72458965, b: 0, a: 1}
   selectColor: {r: 0.55632156, g: 1, b: 0.3160377, a: 1}
   ob: {fileID: 5620528274634450025, guid: 6c9adc14b45738a40bbb1bf92f1c5d73, type: 3}
+  building: {fileID: 0}

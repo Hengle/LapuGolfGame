@@ -9,7 +9,7 @@ public class Tile : MonoBehaviour
     public Color mouseonColor;
     public Color selectColor;
 
-    public GameObject ob;
+    public GameObject grid;
     public GameObject building;
     private Vector3 newpos;
     private bool selected = false;
@@ -40,7 +40,7 @@ public class Tile : MonoBehaviour
         {
             if (hit.transform.tag == "Block")
             {
-                Debug.Log("emmmmmm");
+               
             }
         }
     }
