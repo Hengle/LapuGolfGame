@@ -34,7 +34,7 @@ public class Tile : MonoBehaviour
         }
 
         RaycastHit hit;
-        var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out hit))
         {
