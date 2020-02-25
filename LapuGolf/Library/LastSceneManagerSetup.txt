@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Resources/Scenes/MapEditor/MapEditor.unity
+- path: Assets/Resources/Scenes/Gameplay/PowerUp.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

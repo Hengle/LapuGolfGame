@@ -5,9 +5,11 @@ using System.Collections;
 // Makes objects float up & down while gently spinning.
 public class Floater : MonoBehaviour
 {
+    public bool isRotate = false;
+
     // User Inputs
-    public float degreesPerSecond = 15.0f;
-    public float amplitude = 0.5f;
+    public float degreesPerSecond = 2.0f;
+    public float amplitude = 0.15f;
     public float frequency = 1f;
 
     // Position Storage Variables
@@ -25,7 +27,10 @@ public class Floater : MonoBehaviour
     void Update()
     {
         // Spin object around Y-Axis
-        transform.Rotate(new Vector3(0f, Time.deltaTime * degreesPerSecond, 0f), Space.World);
+        if (isRotate)
+        {
+            transform.Rotate(new Vector3(0f, Time.deltaTime * degreesPerSecond, 0f), Space.World);
+        }
 
         // Float up/down with a Sin()
         tempPos = posOffset;
